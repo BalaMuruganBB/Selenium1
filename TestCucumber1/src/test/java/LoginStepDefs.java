@@ -32,7 +32,7 @@ public class LoginStepDefs {
 	@Then("user is success")
 	public void user_is_success() {
 		driver.findElement(By.id("Login")).click();	
-		System.out.println("Success Login");
+		System.out.println("Login Successful");
 		
 	  	}
 
